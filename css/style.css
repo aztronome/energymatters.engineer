@@ -1,0 +1,138 @@
+/* Energy matters CSS style sheet */
+
+/* global */
+
+body {
+	margin: 0;
+	font-size: 21px;
+	background-color: black;
+}
+
+/* typography */
+
+h1 {
+	font-size: 42;
+} 
+
+h2 {
+	font-size: 32;
+}
+
+h3 {
+	font-size: 34;
+}
+
+/* layout */
+
+header {
+    background-color: #588C94;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* home page */
+
+.projects {
+    background-color: black;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin: 20px;
+}
+
+.column {
+    margin: 5px;
+    border: solid black 4px;
+    padding: 5px;
+    background-color: #1D3C41;
+}
+
+/* astro-images */
+
+.astro-h2 {
+	border: solid #1D3C41 5px;
+	margin: 0px;	
+	padding: 4px;
+	text-align: center;
+	color: white;
+}
+
+.astro-p {
+	border: solid #1D3C41 10px;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+/* Solar */
+
+.solar-h1 {
+	background-color: green;
+	margin: 50px;
+	padding: 20px;
+	border: outset red 12px;
+    color: red;
+    font-size: 32px;
+}
+
+.solar-h2 {
+    border: solid #1D3C41 5px;
+	margin: 0px;	
+	padding: 4px;
+	text-align: center;
+	color: white;
+}
+.solar-h3 {
+    color: blue;
+    font-size: 24px;
+}
+.solar-p {
+    border: solid #1D3C41 10px;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+/* about */
+
+.about-h1 {
+    background-color: green;
+	margin: 50px;
+	padding: 20px;
+	border: outset red 12px;
+    color: red;
+    font-size: 32px;
+}
+
+.about-h2 {
+    border: solid #1D3C41 5px;
+	margin: 0px;	
+	padding: 4px;
+	text-align: center;
+	color: white;
+}
+
+.about-h3 {
+
+}
+
+.about-p {
+	border: solid #1D3C41 10px;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+
+}
+
+
+
+/*
+*/
