@@ -89,12 +89,12 @@ header {
 	color: white;
 }
 .solar-h3 {
-    color: blue;
+    color: #3ADF00;
     font-size: 24px;
 }
 .solar-p {
-    border: solid #1D3C41 10px;
-	margin: 20px;
+    border: solid #1D3C41 5px;
+	margin: 10px;
 	padding: 10px;
 	text-align: center;
 	color: white;
