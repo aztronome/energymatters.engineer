@@ -45,14 +45,14 @@ header {
 
 .row {
     display: flex;
-    margin: 20px;
+    
 }
 
 .column {
-    margin: 5px;
-    border: solid black 4px;
+    margin: 10px;
+    border: solid #1D3C41 7px;
     padding: 5px;
-    background-color: #1D3C41;
+    background-color: black;
 }
 
 
