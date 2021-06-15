@@ -1,6 +1,5 @@
 /* Energy matters CSS style sheet testicle */
 
-/* global */
 
 body {
 	margin: 0;
@@ -8,44 +7,113 @@ body {
 	background-color: black;
 }
 
-
-/* typography */
-
-h1 {
-	font-size: 42;
-} 
-
-h2 {
-	font-size: 32;
-}
-
-h3 {
-	font-size: 34;
-}
-
-
-/*  layout  */
-
 header {
     background-color: #588C94;
     color: white;
-    padding: 20px;
+    padding: 1px 5px;
     text-align: center;
 }
 
+h1 {
+	font-size: 52px;
+	margin: 15px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+	/*font-family: sans-serif;*/
+} 
 
-/*  home-page  */
+h2 {
+	font-size: 34px;
+	text-align: center;
+	color: white;
+	/*letter-spacing: 2px;*/
+}
+
+h3 {
+	font-size: 32px;
+	color: #3ADF00;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 40px 0px 8px 0px;
+}
+
+p {
+	font-size: 21px;
+	border: solid #1D3C41 5px;	
+	padding: 7px;
+	text-align: center;
+	color: white;
+	margin: 0px 13px;
+}
+
+ul {
+	margin:  0;
+    padding: 0;
+    list-style: none;
+    text-align: center;	
+}
+
+li {
+	color: #1D3C41;	
+}
+
+img {
+	margin: 0px;
+	width: 100%; 
+	height: auto;
+}
+
+
+/* NAV-BAR */
+
+.nav {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	position: sticky;
+}
+
+.nav ul {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+	display: inline-block;
+	margin: 5px 20px;
+	color: #3ADF00;
+}
+
+.nav a {
+	font-size: 22px;
+}
+
+/* NAV-BAR */
+
+
+
+/*  HOME-PAGE  */
+
+.projects p {
+	border: none;
+	margin: 10px;
+}
+
+.projects h3 {
+	margin: 10px;
+}
 
 .projects {
     background-color: black;
-    color: #fff;
+    color: black;
     padding: 25px 0;
     text-align: center;
 }
 
 .row {
-    display: flex;
-    
+    display: flex;   
 }
 
 .column {
@@ -55,119 +123,12 @@ header {
     background-color: black;
 }
 
+/*  HOME-PAGE  */
 
-/*  Solar  */
-
-.solar-h1 {
-	background-color: green;
-	margin: 50px;
-	padding: 20px;
-	border: outset red 12px;
-    color: red;
-    font-size: 32px;
-}
-
-.solar-h2 {
-    border: solid #1D3C41 5px;
-	margin: 0px;	
-	padding: 4px;
-	text-align: center;
-	color: white;
-}
-.solar-h3 {
-    color: #3ADF00;
-    font-size: 24px;
-}
-.solar-p {
-    border: solid #1D3C41 5px;
-	margin: 10px;
-	padding: 10px;
-	text-align: center;
-	color: white;
-}
-
-
-/*  astro-images  */
-
-.astro-h2 {
-    text-align: center;
-	color: #3ADF00;	
-}
-
-.astro-p {
-	border: solid #1D3C41 6px;
-	margin: 20px;
-	padding: 10px;
-	text-align: center;
-	color: white;
-}
-
-
-/*  Observatory  */
-
-.obs-h1 {
-}
-
-.obs-h2 {
-	text-align: center;
-	color: #3ADF00;
-}
-
-.obs-h3 {
-}
-
-.obs-p {
-	border: solid #1D3C41 6px;
-	margin: 20px;
-	padding: 12px;	
-	color: white;
-}
-
-.obs-link {
-	text-align: center;
-	border: solid #1D3C41 6px;
-	margin: 20px;
-	padding: 12px;
-	color: white;
-}
-
-
-/*  about  */
-
-.about-h1 {
-    background-color: green;
-	margin: 50px;
-	padding: 20px;
-	border: outset red 12px;
-    color: red;
-    font-size: 32px;
-}
-
-.about-h2 {
-    border: solid #1D3C41 5px;
-	margin: 0px;	
-	padding: 4px;
-	text-align: center;
-	color: white;
-}
-
-.about-h3 {
-}
-
-.about-p {
-	border: solid #1D3C41 10px;
-	margin: 20px;
-	padding: 10px;
-	text-align: center;
-	color: white;
-
+.astro-video {
+	margin-left: 90px;
 }
 
 
 
-/*  border: solid #1D3C41 5px;
-	margin: 0px;	
-	padding: 4px;
-	text-align: center;
-	color: white;
-*/
+
