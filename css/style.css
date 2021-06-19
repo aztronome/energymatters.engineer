@@ -20,13 +20,13 @@ header {
     text-align: center;
 }
 
-main {
+/*main {
 	/*border: 1px solid #99153D;*/
 	background-image: url(images/Astro/gcsp_2019.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-}
+}*/
 
 h1 {
 	font-size: 52px;
@@ -101,7 +101,7 @@ img {
 }
 
 .nav a {
-	font-size: 27px;
+	font-size: 32px;
 	text-decoration: none;
 }
 
