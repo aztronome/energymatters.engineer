@@ -1,38 +1,51 @@
-/* Energy matters CSS style sheet testicle */
+/* Energy matters CSS style sheet testicle 
+#206A5D dark
+#81B214 med
+#BFDCAE med light
+#F1F1E8 off white
+*/
 
 
 body {
 	margin: 0;
 	font-size: 21px;
-	background-color: black;
+	background: black;
+	font-family: 'Playfair Display', serif;
 }
 
 header {
-    background-color: #588C94;
-    color: white;
+    background-color: #206A5D;
+    color: #F1F1E8;
     padding: 1px 5px;
     text-align: center;
+}
+
+main {
+	/*border: 1px solid #99153D;*/
+	background-image: url(images/Astro/gcsp_2019.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 
 h1 {
 	font-size: 52px;
 	margin: 15px;
-    color: white;
+    color: #F1F1E8;
     text-align: center;
     letter-spacing: 2px;
-	/*font-family: sans-serif;*/
 } 
 
 h2 {
 	font-size: 34px;
 	text-align: center;
-	color: white;
-	/*letter-spacing: 2px;*/
+	color: #F1F1E8;
 }
 
 h3 {
 	font-size: 32px;
-	color: #3ADF00;
+	/*color: #04B404;*/
+	color: #81B214;
 	text-align: center;
 	letter-spacing: 3px;
 	margin: 40px 0px 8px 0px;
@@ -40,11 +53,12 @@ h3 {
 
 p {
 	font-size: 21px;
-	border: solid #1D3C41 5px;	
+	border: solid #206A5D 5px;	
 	padding: 7px;
 	text-align: center;
-	color: white;
+	color: #F1F1E8;
 	margin: 0px 13px;
+
 }
 
 ul {
@@ -55,7 +69,7 @@ ul {
 }
 
 li {
-	color: #1D3C41;	
+	color: #F1F1E8;	
 }
 
 img {
@@ -82,13 +96,31 @@ img {
 
 .nav li {
 	display: inline-block;
-	margin: 5px 20px;
-	color: #3ADF00;
+	margin: 6px 20px;
+	color: #F1F1E8;
 }
 
 .nav a {
-	font-size: 22px;
+	font-size: 27px;
+	text-decoration: none;
 }
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #81B214;
+	/*font-size: 30px;*/
+}
+
+/*a:active {
+	color: white;
+}*/
 
 /* NAV-BAR */
 
@@ -96,19 +128,10 @@ img {
 
 /*  HOME-PAGE  */
 
-.projects p {
-	border: none;
-	margin: 10px;
-}
-
-.projects h3 {
-	margin: 10px;
-}
-
 .projects {
     background-color: black;
     color: black;
-    padding: 25px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -118,9 +141,18 @@ img {
 
 .column {
     margin: 10px;
-    border: solid #1D3C41 7px;
-    padding: 5px;
+    border: solid #206A5D 5px;
+    /*padding: 5px;*/
     background-color: black;
+}
+
+.projects p {
+	border: none;
+	/*margin: 10px;*/
+}
+
+.projects h3 {
+	margin: 10px;
 }
 
 /*  HOME-PAGE  */
@@ -129,6 +161,9 @@ img {
 	margin-left: 90px;
 }
 
+.astro-video-eclipse {
+	width: 100%;
+}
 
 
 

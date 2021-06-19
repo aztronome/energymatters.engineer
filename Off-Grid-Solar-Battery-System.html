@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width">
+    	
 		<title >Off-Grid Solar Battery system</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
@@ -56,15 +63,8 @@
 	        <p class="solar-p">The various sensors and circuits are connected to an Arduino Mega2560 with a protoboard containing several voltage dividers. The arduino is connected to a Raspberry pi acting as a data server for the output of the Arduino serial port into a python script that recieves a .csv and has two outputs it prints a constrained set of data to a terminal window for live monitoring of the system and it writes a line to a .csv file with many measurements and culculations of the system performance. <br><br>
 	        Below is a graph that was generated during a 17 hour period of solar production. The two blue curves at the top of the graph represent water heater temperature sensors in the top of tank (light blue) and bottom of the tank (dark blue) and correspond to the left scale of the graph. The two green curves represent the solar power production of the East (dark green) and West (light green) panels and correspond to the scale on the right of the graph. The orange curve represents the power output of the inverter/battery and correspond to the scale on the right of the graph. The large vertical orange spikes indicate the water heater being powered by the inverter/battery. Notice the blue water heater temperature curves interacting with the orange inverter curve, the first three spikes show that the top heating element was energized and during the third spike the water heater switched to the bottom heating element for subsequent spikes. The two horizontal curves in the middle of the graph purple and light orange represent the temperature in the garage where the battery and inverter are and the exterior temperature respectively these correspond to the left scale. Finally the blue horizontal line near the middle of the graph represents the battery voltage(~48V) and we can see it drop when the orange inverter spikes occur. A lot of information can be extracted from these graphs and tell more than you ever wanted to know about the behavior of a water heater.</p>
 
-	        <img src="images/Solar/13DEC20_solardata.jpg" style="width: 90%; height: auto; margin: 20px 70px; margin-right: auto;">
+	        <img src="images/Solar/13DEC20_solardata.jpg" style="width: 80%; height: auto; margin: 30px 140px; margin-right: auto;">
 
-
-
-	        <!-- links -->
-    	    <p class="solar-p">Are you lost? I can get you <a href="index.html">Home</a></p>
-    	    <p class="solar-p">A few of my <a href="astro-images.html">Astro-Images</a></p>
-	        <p class="solar-p">Check out my </p>
-	        <p class="solar-p">Want to know more <a href="About-me.html">About Me</a></p>
 	    </main>
 	</body>
 </html>
