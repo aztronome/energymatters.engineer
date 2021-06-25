@@ -21,8 +21,8 @@ header {
 }
 
 /*main {
-	/*border: 1px solid #99153D;*/
-	background-image: url(images/Astro/gcsp_2019.jpg);
+	border: 1px solid #99153D;
+	background-image: url("images/Astro/gcsp_2019.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -103,6 +103,7 @@ img {
 .nav a {
 	font-size: 32px;
 	text-decoration: none;
+	transition-duration: .4s;
 }
 
 a:link {
@@ -131,8 +132,9 @@ a:hover {
 .projects {
     background-color: black;
     color: black;
-    padding: 5px 0;
+    /*padding: 5px 0;*/
     text-align: center;
+    padding: 10%;
 }
 
 .row {
@@ -140,10 +142,51 @@ a:hover {
 }
 
 .column {
-    margin: 10px;
+	width: 25%;
+	height: auto;
+    margin: 5% 12%;
     border: solid #206A5D 5px;
+    border-radius: 15px;
     /*padding: 5px;*/
     background-color: black;
+    transition-duration: .6s;
+    overflow: hidden;
+
+}
+
+.tile-container {
+	display: inline-block;
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+}
+
+.tile {
+	width: 80%;
+    height: 80%;
+    transition-duration: 0.3s;
+
+}
+
+.tile .solar {
+	background-image: url("images/Solar/Solar_thumbnail.jpeg");
+}
+
+.tile-container:hover .tile {
+	transform: scale(0.6);
+}
+
+.tile-container:hover::before {
+	display: block;
+    position: absolute;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0,0,0,0.25);
+    color: white;
+    padding: 120px 30px;
+    content:"I started building an off-grid solar battery system for protection from power outages. In the Arizona heat it is essential to have a refrigerator and air conditioner.";
+    z-index: 1;
 }
 
 .projects p {
@@ -163,6 +206,36 @@ a:hover {
 
 .astro-video-eclipse {
 	width: 100%;
+}
+
+.solar-control {
+
+}
+
+#graph {
+
+}
+
+#app {
+	
+}
+
+.solar-app {
+	margin: 0 auto;
+	width: 27%;
+	height: auto;
+	background-color: black;
+}
+
+.solar-app-return {
+	font-size: 28px;
+	height: 50px;
+	width: 170px;
+	margin: -65px 70px 20px 30px;
+	/*background-color: red;*/
+	color: transparent;
+	position: relative;
+	z-index: 10xs;
 }
 
 
