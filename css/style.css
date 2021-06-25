@@ -142,9 +142,9 @@ a:hover {
 }
 
 .column {
-	width: 25%;
+	width: 48%;
 	height: auto;
-    margin: 5% 12%;
+    margin: 1% 3%;
     border: solid #206A5D 5px;
     border-radius: 15px;
     /*padding: 5px;*/
