@@ -1,0 +1,114 @@
+/* .spacer {
+  height: 60px;
+} */
+
+body {
+  background-color: black;
+  margin: 0;
+  /* position: relative; */
+}
+
+/* NAVIGATION-BAR */
+nav {
+  min-height: 60px;
+  top: 0;
+}
+/* #navbar-section img {
+  height: 60px;
+  width: 60px;
+  z-index: 10;
+} */
+/* .shadow {
+   -moz-box-shadow:    inset 0 0 10px #3a3636;
+   -webkit-box-shadow: inset 0 0 10px #dfd3d3;
+   box-shadow:         inset 0 0 10px #3a3636;
+} */
+
+
+/* HERO-SECTION */
+#hero-section {
+  background-color: aqua;
+  background-image: 
+  linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.4)),
+  url(img/gcsp_milkyway.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgba(255, 255, 255, .7);
+  padding: clamp(100px, 20vh, 200px) 0;
+}
+#hero-section h3 {
+  color: rgba(255, 255, 255, .5);
+}
+#profile-img {
+  border-radius: 50%;
+  border: solid 4px rgba(44, 44, 44, 0.932);
+  background-color: rgb(44, 41, 36);  
+  background-repeat: no-repeat; 
+  background-image: url("img/mogollon_profile.jpg");
+  background-position: left -5px top 0px;
+  background-size: 132%;
+  margin: clamp(10px, 20vh, 100px) auto;
+  height: clamp(100px, 20vh, 200px);
+  width: clamp(100px, 20vh, 200px);
+  overflow: hidden;
+} 
+
+/* MISSION-SECTION */
+#mission-section {
+  color: white;
+}
+#mission-section img {
+  border-radius: 3%;
+  width: clamp(200px, 30vh, 300px);
+  /* padding: 0px 0px 0px 100px !important; */
+  
+}
+
+/* SKILLS-SECTION */
+#skills-section {
+  color: white;
+  padding: 15px;
+  /* filter: drop-shadow(6px 6px 10px red) invert(65%); */
+  /* margin-top:60px; */
+}
+.skill-container img {
+  margin: clamp(5px, 7vh, 15px) auto;
+  height: clamp(80px, 16vh, 160px);
+  width: clamp(80px, 16vh, 160px);
+}
+.skill-container svg {
+  /* margin: clamp(5px, 7vh, 15px) auto; */
+  height: clamp(80px, 16vh, 160px);
+  width: clamp(80px, 16vh, 160px);
+}
+
+/* INSPIRATION-SECTION */
+#inspiration-section {
+  margin: clamp(5px, 7vh, 15px) auto;
+  color: white;
+  width: 80%;
+}
+/* #inspiration-section#insp-m8 {
+  color: wheat;
+} */
+
+
+/* CONTACT-SECTION */
+#contact-section {
+  color: white;
+  padding: 10px;
+}
+
+/* #contact-section img {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+} */
+
+/* FOOTER-SECTION */
+#footer-section {
+  color: white;
+  padding: 80px 0px 10px 0px;
+  height: 120px;
+}
