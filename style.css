@@ -124,7 +124,6 @@ nav {
 
 /* FOOTER-SECTION */
 #footer-section {
-  color: white;
-  padding: 80px 0px 10px 0px;
-  height: 120px;
+  padding-top: 35px;
+  height: 100px;
 }
