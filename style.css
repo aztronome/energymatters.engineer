@@ -40,7 +40,7 @@ nav {
   background-size: cover;
   color: rgba(255, 255, 255, .77);
   padding: clamp(100px, 20vh, 200px) 0;
-  height: clamp(75vh, 85vh, 100vh);
+  /* height: clamp(75vh, 85vh, 100vh); */
 }
 #hero-section h3 {
   color: rgba(255, 255, 255, 0.55);
@@ -62,7 +62,8 @@ nav {
 
 /* MISSION-SECTION */
 #mission-section {
-  font-size: clamp(2.5vw, 3vw, 3.5vw);
+  /* font-size: clamp(2.5vw, 18px, 3.5vw); */
+  font-size: 18px;
   color: white;
 }
 #mission-section img {
