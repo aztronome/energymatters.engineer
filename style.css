@@ -7,7 +7,7 @@ body {
   /* position: relative; */
 }
 /* .spacer {
-  height: 60px;
+  height: 45px;
 } */
 hr {
   color: white;
@@ -17,6 +17,8 @@ hr {
 nav {
   min-height: 45px;
   background-color: rgba(1,1,1, 0.69);
+  z-index: 10;
+  top: 0;
   /* transition-duration: 0.7s; */
 }
 /* #bi:hover {
@@ -38,10 +40,11 @@ nav {
   background-size: cover;
   color: rgba(255, 255, 255, .77);
   padding: clamp(100px, 20vh, 200px) 0;
+  height: clamp(75vh, 85vh, 100vh);
 }
 #hero-section h3 {
   color: rgba(255, 255, 255, 0.55);
-  text-shadow: 2px 1px rgba(200, 140, 0, 0.35);"
+  text-shadow: 2px 1px rgba(200, 140, 0, 0.35);
 }
 #profile-img {
   border-radius: 50%;
@@ -59,7 +62,7 @@ nav {
 
 /* MISSION-SECTION */
 #mission-section {
-  font-size: 18px;
+  font-size: clamp(2.5vw, 3vw, 3.5vw);
   color: white;
 }
 #mission-section img {
