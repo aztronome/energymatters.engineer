@@ -1,31 +1,4 @@
-/* 
-   Welcome to the Higher-Lower Game Project. 
 
-   Try out the following functions that are 
-   available to you (you can just call them
-   in code or the console):
-   
-  // Returns the current value the user has 
-  // entered into the guess input box.
-  function getGuessInput()
-
-  // Sets the current value  entered into the 
-  // guess input box to 'value'.
-  function setGuessInput(value)
- 
-  // Hides all messages shown to the user within
-  // the "message-container" element.
-  function hideAllMessages()
-
-  // Hides all messages and then shows the one
-  // with with the id attribute matching 'id' 
-  // parameter.
-  // Example: showMessage("higher-message")
-  function showMessage(id)
-
-  // Shows the remaining guess count.
-  function showRemainingGuesses(value)
-*/
 // Initialize global variables needed by the program.
 let magicNumber = -1; // -1 triggers new game
 let remainingGuesses = -1;
@@ -89,6 +62,8 @@ if (remainingGuesses > 0) { // remainingGuesses > 0
     } else if (guess === magicNumber) { // WIN
       showMessage("win-message");
       console.log("WIN");
+      remainingGuesses--;
+      showRemainingGuesses(remainingGuesses);
       // disable the make guess button
       document.getElementById("make-guess").disabled = true;
       return; // or return or jump back to top
@@ -96,7 +71,6 @@ if (remainingGuesses > 0) { // remainingGuesses > 0
       showMessage("lower-message");
       console.log("Lower");
       remainingGuesses--;
-      // if guesses == 0 display LOSE message
       showRemainingGuesses(remainingGuesses);
       console.log("Remaining guesses: " + remainingGuesses);
       if (remainingGuesses === 0) { // You Lose
@@ -138,21 +112,3 @@ if (remainingGuesses > 0) { // remainingGuesses > 0
   }
 } 
 }
-  // Check if the user has any remaining guesses and return if not.
-
-  // Retreive the user's newest guess.
-
-  // Check if the user has won. We should show a message, set remaining guesses to 0, and return from this function.
-  
-  // Check if the guess is higher or lower and show appropriate message.
-
-  // The user has used a guess, decrement remainin guesses and show the new value.
-
-  // If the remaining guesses is 0, then the user has lost and that message should be shown.
-
-/* Function to be called when the user wants to play again.
-   Here are the steps:
-      (1) Setup a new game.
-      (2) Set the guess input to "".
-*/
-
