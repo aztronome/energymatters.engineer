@@ -40,7 +40,7 @@ let oldGuess = -1;
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
-  // insert test loop
+  // insert test loop below
       // for (let i = min; i < max; i--) {
       //   console.log(i);
       // }
