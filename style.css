@@ -1,39 +1,49 @@
 body {
   margin: 0;
   background-color: black;
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+  background:
     url("aztronome_heart.png");
-  background-position: top, center;
-  background-size: 100vh, cover;
-  background-repeat: none, down;
-  //overflow: hidden;
-  color: white;
-  //text-shadow: 1px 2px rgb(242, 226, 243);
+  background-position: center;
+  background-size: contain;
+  background-repeat: none;
+  color: white; 
   text-align: center;
+}
+
+#body-div {
+  background: rgba(0, 0, 0, 0.3);
+  background-position: top;
+  background-size: cover;
+  background-repeat: down;
+  min-height: 100vh;
 }
 
 span {
   font-size: 26px;
 }
+
+h1 {
+  margin: 0;
+  padding: 30px;
+}
   
 h6 {
   font-size: 22px;
-  margin: 30px auto; // custom
+  margin: 30px auto;
 }
 
 #guess-input {
   width: 52px;
   font-size: 24px;
-  //margin: 0px 0px 10px 0px; 
+  /*margin: 0px 0px 10px 0px;*/
 }
 
 #guessButtonDiv {
   margin: 10px auto;
 }
 
-button { // or just the first one "make guess"
-  //margin: 50px auto;
+button { /* or just the first one "make guess"*/
+  /*margin: 50px auto;*/
   border-radius: 5%;
   font-size: 24px;
   background-color: transparent;
@@ -41,7 +51,7 @@ button { // or just the first one "make guess"
   text-shadow: 0.2px 1px blue;
 }
 
-button:hover { // should just give an up arrow if invalid input //like repeated number or no change to null? undefined? on page.
+button:hover { /* should just give an up arrow if invalid input //like repeated number or no change to null? undefined? on page.*/
   background-color:rgb(208, 224, 204);
   color: blue;
 }
