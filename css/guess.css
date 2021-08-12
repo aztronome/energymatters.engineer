@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: black;
+  background:
+    url("../img/guess/aztronome_heart.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: none;
+  color: white; 
+  text-align: center;
+}
+
+#body-div {
+  background: rgba(0, 0, 0, 0.3);
+  background-position: top;
+  background-size: cover;
+  background-repeat: down;
+  min-height: 100vh;
+}
+
+span {
+  font-size: 26px;
+}
+
+h1 {
+  margin: 0;
+  padding: 30px;
+}
+  
+h6 {
+  font-size: 22px;
+  margin: 30px auto;
+}
+
+#guess-input {
+  width: 52px;
+  font-size: 24px;
+  /*margin: 0px 0px 10px 0px;*/
+}
+
+#guessButtonDiv {
+  margin: 10px auto;
+}
+
+button { /* or just the first one "make guess"*/
+  /*margin: 50px auto;*/
+  border-radius: 5%;
+  font-size: 24px;
+  background-color: transparent;
+  color:rgb(240, 227, 227);
+  text-shadow: 0.2px 1px blue;
+}
+
+button:hover { /* should just give an up arrow if invalid input //like repeated number or no change to null? undefined? on page.*/
+  background-color:rgb(208, 224, 204);
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+#higher-message {
+  font-size: 28px;
+}
+#lower-message {
+  font-size: 28px;
+}
+#change-message {
+  font-size: 28px;
+}
+#win-message {
+  font-size: 42px;
+}
+#lose-message {
+  font-size: 38px;
+}

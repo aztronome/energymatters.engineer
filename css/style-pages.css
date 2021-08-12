@@ -1,0 +1,375 @@
+/* Energy matters CSS style sheet testicle 
+#206A5D dark
+#81B214 med
+#BFDCAE med light
+#F1F1E8 off white
+*/
+
+
+body {
+	margin: 0;
+	font-size: 21px;
+	background-color: black;
+	font-family: 'Playfair Display', serif;
+}
+header {
+    background-color: #206A5D;
+    color: #F1F1E8;
+    padding: 1px 5px;
+    text-align: center;
+}
+main {
+	/*border: 1px solid #99153D;*/
+	/*background-image: url("img/astro/gcsp_milkyway.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+h1 {
+	font-size: 52px;
+	margin: 15px;
+    color: #F1F1E8;
+    text-align: center;
+    letter-spacing: 2px;
+} 
+h2 {
+	font-size: 34px;
+	text-align: center;
+	color: #F1F1E8;
+}
+h3 {
+	font-size: 32px;
+	color: #04B404;
+	color: #81B214;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 40px 0px 8px 0px;
+}
+p {
+	font-size: 21px;
+	border: solid #206A5D 5px;	
+	padding: 7px;
+	text-align: center;
+	color: #F1F1E8;
+	margin: 0px 13px;
+
+}
+ul {
+	margin:  0;
+    padding: 0;
+    list-style: none;
+    text-align: center;	
+}
+li {
+	color: #F1F1E8;	
+}
+img {
+	margin: 0px;
+	width: 100%; 
+	height: auto;
+}
+
+/* NAV-BAR */
+.nav {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	position: sticky;
+}
+.nav ul {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+}
+.nav li {
+	display: inline-block;
+	margin: 6px 20px;
+	color: #F1F1E8;
+}
+.nav a {
+	font-size: 32px;
+	text-decoration: none;
+	transition-duration: .4s;
+}
+.nav a:link {
+	color: white;
+}
+.nav a:visited {
+	color: white;
+}
+.nav a:hover {
+	color: #81B214;
+	font-size: 30px;
+}
+.nav a:active {
+	color: white;
+}
+/* NAV-BAR */
+
+/* ASTRO-SECTION */
+.astro-video {
+  margin: 0 auto;
+  width: 90vw;
+}
+.astro-video-eclipse {
+  margin: 0 auto;
+  width: 90vw;
+}
+/* ASTRO-SECTION */
+
+/*  SOLAR-APP  */
+.app-section {
+  font-size: 17px;
+}
+.wh-modal-btn {
+  font-size: 17px;
+}
+.app-buttons a {
+  text-decoration: none;
+}
+.app-buttons a:link {
+  color: white;
+}
+.app-buttons a:visited {
+  color: white;
+}
+.app-buttons a:hover {
+  font-size: 18px;
+  color: lightskyblue;
+}
+/*  SOLAR-APP  */
+
+
+
+/*  HOME-PAGE  */
+
+/*.projects {
+    background-color: black;
+    color: black;
+    /*padding: 5px 0;
+    text-align: center;
+    padding: 10%;
+}
+
+.row {
+    display: flex;   
+}
+
+.column {
+	width: 48%;
+	height: auto;
+    margin: 2% 3%;
+    border: solid #206A5D 5px;
+    border-radius: 15px;
+    /*padding: 5px;
+    background-color: black;
+    transition-duration: .6s;
+    overflow: hidden;
+
+}
+
+.tile-container {
+	display: inline-block;
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+}
+
+.tile {
+	width: 80%;
+    height: 80%;
+    transition-duration: 0.3s;
+
+}
+
+.tile .solar {
+	background-image: url("images/Solar/Solar_thumbnail.jpeg");
+}
+
+.tile-container:hover .tile {
+	transform: scale(0.6);
+}
+
+.tile-container:hover::before {
+	display: block;
+    position: absolute;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0,0,0,0.25);
+    color: white;
+    padding: 120px 30px;
+    content:"I started building an off-grid solar battery system for protection from power outages. In the Arizona heat it is essential to have a refrigerator and air conditioner.";
+    z-index: 1;
+}*/
+
+/*.solar-app-return {
+	font-size: 28px;
+	height: 50px;
+	width: 170px;
+	margin: -65px 70px 20px 30px;
+	/*background-color: red;
+	color: transparent;
+	position: relative;
+	z-index: 10xs;
+}*/
+
+/* 9 X 9 photo box with hover effects and links */
+
+/*.photo-container:nth-child(1) .photo {
+  background-image: 
+    url("images/astro/M101.jpg");
+}
+
+.photo-container:nth-child(2) .photo-opacity {
+  background-image: 
+    url("images/astro/M42.jpg");
+}
+
+.photo-container:nth-child(3) .photo {
+  background-image: 
+    url("images/astro/M42.jpg");
+}
+
+.photo-container:nth-child(4) .photo-opacity {
+  background-image: 
+    url("images/astro/M42.jpg");
+}
+
+.photo-container:nth-child(6) .photo-opacity {
+  background-image: 
+    url("https://picsum.photos/200/300?random=6");
+}
+
+.photo-container:nth-child(7) .photo {
+  background-image: 
+    url("https://picsum.photos/200/300?random=7");
+}
+
+.photo-container:nth-child(8) .photo-opacity {
+  background-image: 
+    url("https://picsum.photos/200/300?random=8");
+}
+
+.photo-container:nth-child(9) .photo {
+  background-image: 
+    url("https://picsum.photos/200/300?random=9");
+}
+
+.photo-container .1 .photo {
+	background-image: 
+    url("images/astro/M101.jpg");
+}*/
+
+/*body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: #afafaf;
+  font-size: 34px;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+}*/
+
+/*hr {
+    margin: 0 auto 34px auto;
+    border: 0;
+    height: 3px;
+    width: 90%;
+    background-image: 
+      linear-gradient(to right, 
+        rgba(0, 0, 0, 0), 
+        rgba(175, 175, 175, .45), 
+        rgba(0, 0, 0, 0));
+}
+
+#bottom-hr {
+    margin: 34px auto 34px auto;
+    border: 0;
+    height: 3px;
+    width: 90%;
+    background-image: 
+      linear-gradient(to right, 
+        rgba(0, 0, 0, 0), 
+        rgba(175, 175, 175, .45), 
+        rgba(0, 0, 0, 0));
+}
+
+#gallery {
+  text-align: center;
+  width: 65%;
+  margin: auto;
+}
+
+.photo-container {
+  display: inline-block;
+  /* margin: 20px;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.3s;
+}
+
+.photo-container:hover .photo {
+  transform: scale(1.3);
+  
+}
+
+.photo-opacity {
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.5s;
+  opacity: 0.4;
+}
+
+.photo-container:hover .photo-opacity {
+  opacity: 1;
+}
+
+.photo-rotate {
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.7s;
+  opacity: 1;
+  background-image: 
+    url("images/astro/M33.jpg");
+}
+
+.photo-container:hover .photo-rotate {
+  transform: rotate(-360deg);
+}
+
+.photo-link {
+  width: 100%;
+  height: auto;
+}
+
+/*h2 {
+  color: #afafaf;
+  font-size: 28px;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.photo-container:hover::before {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  height: 260px;
+  width: 260px;
+  background-color: rgba(0,0,0,0.25);
+  color: white;
+  padding: 80px 30px;
+  content:"Photo Name";
+  z-index: 1;
+}*/

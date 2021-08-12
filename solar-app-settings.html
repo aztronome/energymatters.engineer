@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+	 crossorigin="anonymous">
+	<!-- Bootstrap Icon CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+		<link href="css/style-pages.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- APP SETTINGS WINDOW -->
+	  	<div id="" class="app-section text-center bg-secondary">
+		    <div class="container-fluid mx-0">
+		    	<div id="topButtons" class="app-buttons row mx-0 gx-5">
+		        	<div class="col-6 border bg-dark text-light border-primary border-5 rounded-3">
+		        		<a href="solar-app.html">Back-to-APP</a>
+		        	</div>
+		        	<div class="col-6 border bg-dark text-light border-primary border-5 rounded-3">
+		        		<a href="solar-app-settings.html">Advanced</a>
+		        	</div>
+		        </div>
+		    	<div id="info" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col fs-3 bg-light text-center text-md-center">
+		        		Parameters that are selected below will be displayed on the live graph.
+		        	</div>
+		        </div>
+		        <div id="batV" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Battery Voltage
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-secondary">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="offGridInverterPower" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		OffGrid Inv Power
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-warning">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="gridTieInverterPower" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Grid-Tie Inverter
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-warning">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="shoreEnergyUsed" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Shore Energy Used
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-secondary">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="batteryEnergyUsed" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Solar Energy used
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-secondary">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="solarEnergyGenerated" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Solar Generated
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-success">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="eastEnergyGenerated" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		East Solar Power
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-success">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="westEnergyGenerated" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		West Solar Power
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-success">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="insideTemp" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Inside Temp
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-info">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="equipmentTemp" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Equipment Temp
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-info">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="outsideTemp" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Outside Temp
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-info">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="wHeaterUpper" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		W.Heat Upr Temp
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-danger">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="wHeaterLower" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		W.Heat Lwr Temp
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-danger">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		        <div id="lifetimeSolar" class="row rounded-3 border border-3 border-dark bg-light">
+		        	<div class="col-7 bg-light text-end text-md-center">
+		        		Total Solar Energy
+		        	</div>
+		        	<div class="col-5 form-check form-switch bg-secondary">
+  						<input class="ms-1 form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>  						
+					</div>
+		        </div>
+		    </div>
+		</div>
+
+		<!-- Bootstrap Javascript -->
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>

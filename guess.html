@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="css/guess.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="body-div">
+    <h1>Let's Play The Cosmic Higher-Lower Game!</h1>
+    <h3>Guess The Magic Number Between 1 and 100.</h3>
+    <h6>
+      <!-- This element will be updated from javascript with the remaining number of guesses. -->
+      <span id="remaining-guesses">5</span> 
+      - Guesses Remaining.
+    </h6>
+
+    <!-- This element's value will be checked from javascript when a new guess is made. type="number" prevents non number input-->
+    <div>
+      <input id="guess-input" type="number">
+    </div>
+
+    <!-- TODO:: Add a guess button that calls handleGuess function when clicked -->
+    <div id="guessButtonDiv">
+      <button id="make-guess" type="button" onclick="handleGuess();">Make Guess</button>
+    </div>
+
+    <!-- This element contains each of the possible messages to the user. We will selectively remove the "hidden" class from one element at a time using javascript. -->
+    <div id="message-container">
+      <div id="higher-message" class="hidden">Higher ⬆️</div>
+      <div id="lower-message" class="hidden">Lower ⬇️</div>
+      <div id="change-message" class="hidden">Change Your Guess Goofball!</div>
+      <div id="out-of-bounds-message" class="hidden">Invalid Input</div>
+      <div id="win-message" class="hidden">
+      Enlightenment Attained!
+        <!-- TODO:: Add a play again button here. -->
+        <button type="button" onclick="handlePlayAgain();">Play Again</button>
+      </div>
+      <div id="lose-message" class="hidden">
+        You Were Spaghettified :(
+        <!-- TODO:: Add a play again button here. -->
+        <button type="button" onclick="handlePlayAgain();">Play Again</button>
+      </div>
+    </div>
+    </div>
+    <script src="js/guess.js"></script>
+  </body>
+</html>
