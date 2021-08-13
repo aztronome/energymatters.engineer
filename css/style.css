@@ -120,6 +120,41 @@ a {
   height: 100%;
   /* min-height: 300% */
 }
+#project-game {
+  background-image: url("../img/home/kid_game.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  /* min-height: 300% */
+}
+#project-observatory {
+  background-image: url("../img/astro/desert_telescope.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  /* min-height: 300% */
+}
+#game-match {
+  background-image: url("../img/match/frozen_characters.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#game-guess {
+  background-image: url("../img/guess/aztronome_heart.png");
+  background-size: contain;
+  background-position: center;
+  /*overflow: hidden;*/
+  width: 100%;
+  height: 100%;
+}
+
 
 
 /* INSPIRATION-SECTION */

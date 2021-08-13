@@ -46,24 +46,23 @@
     </button>
     <div class="collapse navbar-collapse  fs-5" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto me-2 mb-0 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#mission-section">Mission</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills-section">Skills</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="projects-section" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Projects
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="off-grid-solar.html">Solar</a></li>
+            <li><a class="dropdown-item" href="game_landing.html">Games</a></li>            
             <li><a class="dropdown-item" href="solar-app.html">Solar-APP</a></li>
+            <li><a class="dropdown-item" href="off-grid-solar.html">Solar</a></li>
             <li><a class="dropdown-item" href="astro-images.html">Astro</a></li>
             <li><a class="dropdown-item" href="observatory.html">Observatory</a></li>
-            <li><a class="dropdown-item" href="match.html">Matching game</a></li>
-            <li><a class="dropdown-item" href="guess.html">Higher/Lower game</a></li>          
           </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#mission-section">Mission</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills-section">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#inspiration-section">Inspiration</a>
@@ -82,6 +81,40 @@
     <h3><em>Words are a lens to focus one's mind</em></h3>
   </section>
 
+  <!-- PROJECTS SECTION -->
+  <section id="projects-section" class="m-5">
+    <div class="container text-light text-center p-5">
+      <div class="row">
+        <div class="text-center col-12 mb-3 py-4">
+          <h2>Projects</h2>
+        </div>
+      </div>
+      <div class="row g-5 mx-0">
+        <div class="project col-12 col-md-6 ">
+          <a href="off-grid-solar.html"><div id="project-solar" class="p-3 border border-light rounded-3">
+            <h3>Solar-Energy</h3>
+          </div></a>
+        </div>
+        <div class="project col-12 col-md-6">
+          <a href="astro-images.html"><div id="project-astro" class="p-3 border border-light rounded-3">
+            <h3>Astro</h3>
+          </div></a>
+        </div>
+        <div class="project col-12 col-md-6">
+          <a href="game_landing.html"><div id="project-game" class="p-3 border border-light rounded-3">
+            <h3>Games</h3>
+          </div></a>
+        </div>
+        <div class="project col-12 col-md-6">
+          <a href="observatory.html"><div id="project-observatory" class="p-3 border border-light rounded-3">
+            <h3>Observatory</h3>
+          </div></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
   <!-- MISSION-SECTION -->
   <section id="mission-section" class="text-center mt-5  mx-lg-5 mx-md-4">
     <div class="container">
@@ -94,7 +127,7 @@
           <img src="img/home/brand_icon.png" class="img-fluid" alt="A section of my painting called The perfect coincidenc of two sine waves"> 
         </div>
         <div class="col-12 col-md-6 pt-3 py-md-1 pe-md-4 text-md-start">
-          <p>I believe that through changes in our behavior and perspective we can alter our destructive course and move toward a sustainable and harmonious future. I am combining all my programming, engineering and real-world skills to make more efficient our consumption of energy around the earth. I hope to increase awareness to the amounts of energy and water each person uses in a day and its impact on our environment which future generations will inherit. My current focus is the creation of a solar energy website optimized for mobile devices.</p>
+          <p>I believe that through changes in our behavior and perspective we can alter our destructive course and move toward a sustainable and harmonious future. I am combining all my programming, engineering and real-world skills to make more efficient our consumption of energy around the earth. I hope to increase awareness of the amounts of energy and water each person uses in a day and the impact on our environment which future generations will inherit. My current focus is the creation of a solar energy website optimized for mobile devices.</p>
         </div>
       </div>
     </div>
@@ -113,7 +146,7 @@
       <div class="row mx-0">
         <div class="skill-container col-12 col-md-6 col-lg-3">
           <img src="img/home/html5.png">
-          <p>With a strong foundation in HTML I can leverage a vast ecosystem of web dvelopment technologies.</p>
+          <p>With a strong foundation in HTML I can leverage a vast ecosystem of web development technologies.</p>
         </div>
         <div class="skill-container col-12 col-md-6 col-lg-3">
           <img src="img/home/css3.png">
@@ -128,34 +161,6 @@
           <p>Arduino has allowed me to use my programming skills to produce real world products such as telescope control hardware.</p>
         </div>
       </div>    
-    </div>
-  </section>
-  <hr>
-
-  <!-- PROJECTS SECTION -->
-  <section id="projects-section" class="m-5">
-    <div class="container text-light text-center p-5">
-      <div class="row">
-        <div class="text-center col-12 mb-3 py-4">
-          <h2>Projects</h2>
-        </div>
-      </div>
-      <div class="row g-5 mx-0">
-        <div class="project col-12 col-md-6 ">
-          <a href="off-grid-solar.html"><div id="project-solar" class="p-3 border border-light rounded-3">
-            <h3>Solar-Energy</h3>
-            <img src="" alt="">
-            <p></p>
-          </div></a>
-        </div>
-        <div class="project col-12 col-md-6">
-          <a href="astro-images.html"><div id="project-astro" class="p-3 border border-light rounded-3">
-            <h3>Astrophotography</h3>
-            <!-- <img src="img/M45.jpg" alt=""> -->
-            <p></p>
-          </div></a>
-        </div>
-      </div>
     </div>
   </section>
   <hr>
@@ -175,43 +180,37 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="6000">
-          <img src="/img/astro/M8.jpg" class="d-block w-100" alt="M8 Lagoon Nebule cropped and distorted slightly 1600x1200">
+          <img src="img/astro/M8.jpg" class="d-block w-100" alt="M8 Lagoon Nebule cropped and distorted slightly 1600x1200">
           <div class="carousel-caption d-md-block my-0 py-1">            
             <p>I took this picture of M8 Lagoon Nebula while returning to phoneix from JPL</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="/img/home/spacexrocketreturn.jpeg" class="d-block w-100" alt="SpaceX lands two rockets simultaniously for reuse">
+          <img src="img/home/spacexrocketreturn.jpeg" class="d-block w-100" alt="SpaceX lands two rockets simultaniously for reuse">
           <div class="carousel-caption d-md-block my-0 py-1">
             <p>SpaceX lands two Falcon Heavy boosters simultaneously for reuse</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="/img/home/claudeshannon.jpeg" class="d-block w-100" alt="Claude shannon, known as the father of information theory">
+          <img src="img/home/claudeshannon.jpeg" class="d-block w-100" alt="Claude shannon, known as the father of information theory">
           <div class="carousel-caption d-md-block my-0 py-1">
             <p>Claude shannon is known as the father of information theory</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
-          <img src="/img/home/mogollon_profile.jpg" class="d-block w-100" alt="Hiking along the Mogollon Rim">
+          <img src="img/home/mogollon_profile.jpg" class="d-block w-100" alt="Hiking along the Mogollon Rim">
           <div class="carousel-caption d-md-block my-0 py-1">
             <p>Hiking along the Mogollon Rim</p>
           </div>
         </div>
       <div class="carousel-item" data-bs-interval="5000">
-          <img src="/img/astro/gcsp_milkyway.jpg" class="d-block w-100" alt="Our Milky Way Galaxy captured from the Grand Canyon Star Party">
+          <img src="img/astro/gcsp_milkyway.jpg" class="d-block w-100" alt="Our Milky Way Galaxy captured from the Grand Canyon Star Party">
           <div class="carousel-caption d-md-block my-0 py-1">
             <p>Our Milky Way Galaxy captured from the Grand Canyon Star Party</p>
           </div>
         </div>
       <div class="carousel-item" data-bs-interval="5000">
-          <img src="/img/home/havasupai.png" class="d-block w-100" alt="We camped at the top of Mooney falls">
-          <div class="carousel-caption d-md-block my-0 py-1">
-            <p>We camped at the top of Mooney falls</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="/img/astro/desert_telescope.jpg" class="d-block w-100" alt="We camped at the top of Mooney falls">
+          <img src="img/home/havasupai.png" class="d-block w-100" alt="We camped at the top of Mooney falls">
           <div class="carousel-caption d-md-block my-0 py-1">
             <p>We camped at the top of Mooney falls</p>
           </div>

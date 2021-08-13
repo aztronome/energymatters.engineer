@@ -20,6 +20,30 @@ h1 {
   font-size: 60px;
   text-align: center;
 }
+.match-back {
+  font-style: none;
+  text-align: center;
+  margin: 5px auto;
+  width: 200px;
+  border: solid 2px white;
+  font-size: 24px;
+}
+a:link {
+  color: white;
+  font-style: none;
+}
+a:visited {
+  color: white;
+  font-style: none;
+}
+a:hover {
+  color: white;
+  font-style: none;
+}
+a:active {
+  color: white;
+  font-style: none;
+}
 
 #ui-container {
   text-align: center;

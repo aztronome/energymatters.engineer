@@ -26,6 +26,24 @@ h1 {
   margin: 0;
   padding: 30px;
 }
+.guess-back {
+  margin: 5px auto;
+  width: 200px;
+  border: solid 2px white;
+  font-size: 24px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
   
 h6 {
   font-size: 22px;
