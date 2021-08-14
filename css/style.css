@@ -4,9 +4,7 @@ body {
   margin: 0;
   /* position: relative; */
 }
-/* .spacer {
-  height: 60px;
-} */
+
 hr {
   color: white;
 }
@@ -17,9 +15,7 @@ nav {
   background-color: rgba(1,1,1, 0.69);
   /* transition-duration: 0.7s; */
 }
-/* #bi:hover {
-  transform: rotate(-90deg);
-} */
+/* NAVIGATION-BAR */
 
 
 /* HERO-SECTION */
@@ -46,7 +42,80 @@ nav {
   height: clamp(100px, 20vh, 200px);
   width: clamp(100px, 20vh, 200px);
   overflow: hidden;
-} 
+}
+/* HERO-SECTION */
+
+
+/* PROJECTS-SECTION */
+#projects-section {
+  font-size: 18px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.project-container {
+  border-radius: 10px;
+}
+.project { 
+  height: 35vw;
+  /*width: 40vw;*/
+}
+#project-solar{
+  background-image: url("../img/solar/solar_thumbnail.jpeg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#project-astro {
+  background-image: url("../img/astro/M45.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#project-game {
+  background-image: url("../img/home/kid_game.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#project-observatory {
+  background-image: url("../img/astro/desert_scope.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+/* PROJECTS-SECTION */
+
+
+/* GAME-LANDING-PAGE */
+#game-match {
+  background-image: url("../img/match/frozen_characters.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#game-guess {
+  background-image: url("../img/guess/aztronome_heart.png");
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+/* GAME-LANDING-PAGE */
+
 
 /* MISSION-SECTION */
 #mission-section {
@@ -58,6 +127,8 @@ nav {
   width: clamp(250px, 40vw, 350px);
   /* padding: 0px 0px 0px 100px !important; */  
 }
+/* MISSION-SECTION */
+
 
 /* SKILLS-SECTION */
 #skills-section {
@@ -83,80 +154,7 @@ nav {
   height: clamp(80px, 16vh, 160px);
   width: clamp(80px, 16vh, 160px);
 } */
-
-/* PROJECTS-SECTION */
-#projects-section {
-  font-size: 18px;
-  color: white;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-.project-container {
-  border-radius: 10px;
-  /* border: solid grey 3px;
-  border-sizing: border-box; */
-}
-.project {
-  height: 35vw;
-  /* width: 75vw; */
-}
-#project-solar{
-  background-image: url("../img/solar/solar_thumbnail.jpeg");
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  width: 120%;
-  height: 120%;
-  /* min-height: 300% */
-}
-#project-astro {
-  background-image: url("../img/astro/M45.jpg");
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  width: 120%;
-  height: 120%;
-  /* min-height: 300% */
-}
-#project-game {
-  background-image: url("../img/home/kid_game.jpg");
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  width: 120%;
-  height: 120%;
-  /* min-height: 300% */
-}
-#project-observatory {
-  background-image: url("../img/astro/desert_telescope.jpg");
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  width: 120%;
-  height: 120%;
-  text-align: center;
-  /* min-height: 300% */
-}
-
-#game-match {
-  background-image: url("../img/match/frozen_characters.jpg");
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  width: 120%;
-  height: 120%;
-}
-#game-guess {
-  background-image: url("../img/guess/aztronome_heart.png");
-  background-size: contain;
-  background-position: center;
-  overflow: hidden;
-  width: 120%;
-  height: 120%;
-}
-
+/* SKILLS-SECTION */
 
 
 /* INSPIRATION-SECTION */
@@ -172,6 +170,7 @@ a {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
+/* INSPIRATION-SECTION */
 
 
 /* CONTACT-SECTION */
@@ -179,19 +178,22 @@ a {
   color: white;
   padding: 10px;
 }
-
 /* #contact-section img {
   background-color: white;
   height: 100px;
   width: 100px;
   padding: 20px;
 } */
+/* CONTACT-SECTION */
+
 
 /* FOOTER-SECTION */
 #footer-section {
   padding-top: 25px;
   height: 80px;
 }
+/* FOOTER-SECTION */
+
 
 /* SOLAR-APP */
 .solar-app {
@@ -210,3 +212,4 @@ a {
   position: relative;
   z-index: 10xs;
 }
+/* SOLAR-APP */
